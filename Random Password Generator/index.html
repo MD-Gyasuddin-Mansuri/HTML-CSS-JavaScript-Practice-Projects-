@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/4fd992c9cf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="password-container">
+      <h2>Random Password Generator</h2>
+      <div class="input-container">
+        <input
+          type="text"
+          class="input"
+          id="input"
+          placeholder="Create Password"
+          readonly
+        />
+        <i class="far fa-copy"></i>
+      </div>
+      <button class="btn" onclick="createPassword()">Generate</button>
+    </div>
+
+    <div class="alert-container active">Preview</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
